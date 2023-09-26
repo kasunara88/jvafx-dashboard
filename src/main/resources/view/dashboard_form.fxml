@@ -14,7 +14,7 @@
             <Font name="Consolas Bold" size="18.0" />
          </font>
       </Label>
-      <Button layoutX="109.0" layoutY="94.0" mnemonicParsing="false" style="-fx-background-color: #81ecec;" text="Customer">
+      <Button layoutX="109.0" layoutY="94.0" mnemonicParsing="false" onAction="#bttnCustomerOnAction" style="-fx-background-color: #81ecec;" text="Customer">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
